@@ -68,7 +68,7 @@ int main()
     int h_pop = 0;
     int l_pop = 100000;
     int s_pop = 0;
-    int m = 0;
+    int m = -1;
     int i = input();
     bool m_g = q();
     if (m_g) {
