@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\sebas\source\repos\ConwaysGameOfLife\ConwaysGameOfLife\Source.cpp(50,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\sebas\source\repos\ConwaysGameOfLife\ConwaysGameOfLife\Source.cpp(51,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  ConwaysGameOfLife.vcxproj -> C:\Users\sebas\source\repos\ConwaysGameOfLife\Debug\ConwaysGameOfLife.exe
