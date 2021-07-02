@@ -47,12 +47,11 @@ int max_gen() {
 }
 
 int stats(int c_gen, int prob, int c_pop, int s_pop, int l_pop, int h_pop) {
-    float f_prob = 1/(prob+1); //???
+    float f_prob = 1.0/(static_cast<float>(prob)+1.0);
     float a_pop = s_pop / c_gen;
     std::cout << "############################################" << std::endl;
     std::cout << "###              Some Stats              ###" << std::endl;
     std::cout << "############################################" << std::endl;
-    //std::setprecision(3);
     std::cout << "###     probability: " << f_prob <<  "%                  ###" << std::endl;
     std::cout << "###     current generation: " << c_gen << "           ###" << std::endl;
     std::cout << "###     current population: " << c_pop << "         ###" << std::endl;
